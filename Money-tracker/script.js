@@ -9,6 +9,7 @@ const text = document.getElementById('text')
 const amount = document.getElementById('amount')
 
 const dataTransaction = [
+    
 ]
 function autoId(){
     return Math.floor(Math.random()*1000000)
