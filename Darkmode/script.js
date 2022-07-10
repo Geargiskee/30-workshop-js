@@ -3,8 +3,10 @@ const toggleIcon  = document.getElementById('toggle-icon')
 const nav = document.getElementById('nav')
 function switchMode(e){
     if(e.target.checked){
+        document.documentElement.setAttribute('data-theme', 'dark')
         darkMode();
     }else{
+        document.documentElement.setAttribute('data-theme', 'light')
         lightMode();
     }
 }
